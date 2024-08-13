@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travel & Tourist Website</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav__main">
+        <div class="nav__logo">
+          <a href="#" class="logo"
+            ><i class="ri-ancient-gate-fill"></i>&nbsp;<span>Travel</span></a
+          >
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#topSpots">Top Spots</a></li>
+        <li><a href="#offer">Offer</a></li>
+        <li><a href="#deals">Deals</a></li>
+        <li><a href="#newsletter">Newsletter</a></li>
+        <li><a href="#testimonial">Testimonials</a></li>
+      </ul>
+    </nav>
+    <header class="header" id="home">
+      <div class="section__container home__container">
+        <h1>Explore <br /><span>The World.</span></h1>
+        <p>With Us</p>
+        <form action="/">
+          <div class="input__fields">
+            <span><i class="ri-map-2-fill"></i></span>
+            <input type="text" placeholder="Place You wanted to Visit" />
+          </div>
+          <div class="input__fields">
+            <span><i class="ri-map-pin-2-fill"></i></span>
+            <input type="text" placeholder="Map" />
+          </div>
+          <div class="input__fields">
+            <span><i class="ri-list-ordered-2"></i></span>
+            <input type="text" placeholder="Package Type" />
+          </div>
+          <div class="input__fields">
+            <button class="btn">Explore</button>
+          </div>
+        </form>
+      </div>
+    </header>
+    <section class="topSpots" id="topSpots">
+      <div class="section__container destination__container">
+        <h2 class="section__header">Must-Visit Locations</h2>
+        <p class="section__description">
+          Discover the World's Top Destinations
+        </p>
+        <div class="destination__grid">
+          <div class="destination__card">
+            <img src="assets/Location-1.jpg" alt="topSpots" />
+            <div class="destination__content">Kyoto</div>
+          </div>
+          <div class="destination__card">
+            <img src="assets/Location-2.jpg" alt="topSpots" />
+            <div class="destination__content">Fushimi</div>
+          </div>
+          <div class="destination__card">
+            <img src="assets/Location-3.jpg" alt="topSpots" />
+            <div class="destination__content">Naha</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="offer" id="offer">
+      <div class="section__container offer__container">
+        <h2>
+          Join now and get up to 40% off<br /><span>by using ADE code.</span>
+        </h2>
+        <div class="offer__btn">
+          <button class="btn">Join Us</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container deals__container" id="deals">
+      <h2 class="section__header">Highlight Deals</h2>
+      <p class="section__description">Let Us Match You with Your Ideal Trip!</p>
+      <div class="deals__grid">
+        <div class="deals__card">
+          <img src="assets/Deal-1.jpg" alt="package" />
+          <div class="deals__card__details">
+            <h4>Yuki Tanaka Tour</h4>
+            <p>
+              Follow Yuki Tanaka on a journey through the dynamic culture and
+              picturesque landscapes of Thailand's thriving metropolises
+            </p>
+            <div>
+              <button class="btn">Book Now</button>
+              <h3>$130</h3>
+            </div>
+          </div>
+        </div>
+        <div class="deals__card">
+          <img src="assets/Deal-2.jpg" alt="package" />
+          <div class="deals__card__details">
+            <h4>Hiroshi Yamamoto Tour</h4>
+            <p>
+              Embark on an adventure with Hiroshi Yamamoto to explore the rich
+              culture and breathtaking scenery of Thailand's thriving cities
+            </p>
+            <div>
+              <button class="btn">Book Now</button>
+              <h3>$150</h3>
+            </div>
+          </div>
+        </div>
+        <div class="deals__card">
+          <img src="assets/Deal-3.jpg" alt="package" />
+          <div class="deals__card__details">
+            <h4>Tokyo Tour</h4>
+            <p>
+              Experience the electrifying energy and stunning cityscapes of
+              Tokyo. Explore vibrant Technology and Dynamic culture.
+            </p>
+            <div>
+              <button class="btn">Book Now</button>
+              <h3>$110</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter" id="newsletter">
+      <div class="section__container newsletter__container">
+        <h2>Get the Latest Updates by Joining Our Newsletter</h2>
+        <div>
+          <p>For Tailored Recommendations, Subsctibe to Our Newsletter.</p>
+          <form action="/">
+            <input type="text" placeholder="Enter Your Email Here" />
+            <button class="btn">SUBSCRIBE</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="container testimonials__container" id="testimonial">
+      <h2 class="section__header">Our customer Reviews</h2>
+      <div class="testimonials__grid">
+        <div class="testimonials__card">
+          <div class="testimonials__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-half-fill"></i></span>
+          </div>
+          <p>
+            I had an amazing experience using this travel website for my recent
+            adventure in Bangkok. The website's design is intuitive, and I found
+            all the information I needed to plan my trip efficiently.
+          </p>
+          <div class="testimonials__member">
+            <img src="./assets/Testimonial-1.jpg" alt="image" />
+            <div class="testimonials__member__details">
+              <h4>Bharani</h4>
+              <p>Doctor</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__card">
+          <div class="testimonials__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+          <p>
+            This travel website made booking my trip to Tokyo a breeze. The
+            variety of options for hotels, tours, and activities was impressive,
+            and the customer service was top-notch. One of the best Company in
+            the tourist.
+          </p>
+          <div class="testimonials__member">
+            <img src="./assets/Testimonial-2.jpg" alt="image" />
+            <div class="testimonials__member__details">
+              <h4>Roxy</h4>
+              <p>Cardiologist</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials__card">
+          <div class="testimonials__rating">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-line"></i></span>
+          </div>
+          <p>
+            I recently used this travel website to plan my trip to Kyoto, and it
+            exceeded all my expectations. The site is incredibly user-friendly,
+            and the curated recommendations were spot-on.
+          </p>
+          <div class="testimonials__member">
+            <img src="./assets/Testimonial-3.jpg" alt="image" />
+            <div class="testimonials__member__details">
+              <h4>Rama</h4>
+              <p>Teacher</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer" id="contact">
+      <div class="container footer__container">
+        <div class="footer__col">
+          <h4>Code Genius</h4>
+          <p>
+            Our mission is to equip you with the insights and resources to fully
+            experience and enjoy your travels
+          </p>
+          <br />
+          <button class="btn">Book Now</button>
+        </div>
+        <div class="footer__col">
+          <h4>QUICK LINKS</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+            <li>
+              <a href="#">FAQS</a>
+            </li>
+            <li>
+              <a href="#">Resources</a>
+            </li>
+            <li>
+              <a href="#">Classes</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>OUR SERVICES</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">Guided City Tours</a>
+            </li>
+            <li>
+              <a href="#">Local Culture Workshops</a>
+            </li>
+            <li>
+              <a href="#">Group Adventure Activities</a>
+            </li>
+            <li>
+              <a href="#">Private Tour Experiences</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>CONTACT US</h4>
+          <ul class="footer__links">
+            <li>
+              <a href="#">codegenius@gmail.com</a>
+            </li>
+          </ul>
+          <div class="footer__socials">
+            <ul class="footer__socials">
+              <li>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-google-fill"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bar">
+        Copyright @2024 Travel Agency. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
